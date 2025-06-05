@@ -1,13 +1,13 @@
 {% set name = "torchapp" %}
-{% set version = "0.3.7" %}
+{% set version = "0.5.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/torchapp-{{ version }}.tar.gz
-  sha256: f588c4e8350d39ff938d62f764439b5d38f24cf819e51f1dfda969548aa077e4
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/torchapp-{{ version }}.tar.gz
+  sha256: c668be179441e9b02caf8225dbd07a859f98025be5a21e5a2f8b56fdae81c9d5
 
 build:
   entry_points:
