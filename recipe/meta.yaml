@@ -1,6 +1,5 @@
 {% set name = "torchapp" %}
 {% set version = "0.5.10" %}
-{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
